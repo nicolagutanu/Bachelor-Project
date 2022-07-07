@@ -1,0 +1,208 @@
+body {
+    background-color: #122034;
+}
+
+#parent {
+    display: flex;
+}
+
+#menu {
+    width: 300px;
+    height: 728px;
+}
+
+#shapes-menu, #text-menu, #lines-menu {
+    border: 2px solid #122034;
+    width: 300px;
+    height: 728px;
+    background-color: white;
+    flex: initial;
+}
+
+#text-menu, #lines-menu {
+	display: none;
+}
+
+#shapes, #text, #lines {
+    height: 100px;
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 5px;
+    border: 2px solid #122034;
+    border-left: 0;
+    border-radius: 0 15px 0 0;
+    margin-top: 10px;
+    display: block;
+    background-color: #a5c1e6;
+    color: #122034;
+}
+
+button span {
+    display: inline-block;
+    transform: rotate(90deg);
+    width: 16px;
+    font-family: "Abril Fatface", serif;
+    color: #122034;
+}
+
+#canvas {
+    overflow: auto;
+    width: 880px;
+    height: 728px;
+    border: 2px solid black;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.trash:hover {
+    -webkit-filter: drop-shadow( 1px 1px 0.5px rgba(0, 0, 0, .7));
+    filter: drop-shadow( 1px 1px 0.5px rgba(0, 0, 0, .7));
+}
+
+#account-menu {
+    width: 250px;
+    height: 728px;
+    border: 2px solid black;
+    background: white;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+#welcome {
+	font-family: "Abril Fatface", serif;
+	font-size: 20px;
+	color: #122034;
+	margin: 40px 0 5px 50px;
+}
+
+#login {
+    position: relative;
+    top: 100px;
+    margin: 0 10px 185px 10px;
+}
+
+#username, #password, #file-name {
+    height: 30px;
+    width: 210px;
+    color: #122034;
+    border-radius: 8px;
+    border: 2px solid #122034;
+    font-size: 16px;
+    font-family: "Abril Fatface", serif;
+    margin: 0 5px 10px 5px;
+}
+
+#login-button, #signUp-button, #logout-button, #save-button {
+    height: 40px;
+    width: 100px;
+    background-color: #122034;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: 16px;
+    font-family: "Abril Fatface", serif;
+    margin: 0 5px 0 10px;
+}
+
+#logout-button {
+	height: 30px;
+	margin: 0 0 50px 75px;
+}
+
+#signUp-button {
+    margin: 0 10px 0 0;
+}
+
+#file-name {
+	width: 150px;
+	margin: 0 5px 0 10px;
+}
+
+#save-button {
+	width: 60px;
+	margin: 0 10px 0 0;
+}
+
+#list {
+	height: 110px;
+	overflow: hidden;
+	overflow-y:scroll;
+	font-family: "Abril Fatface", serif;
+	font-size: 16px;
+	color: #122034;
+	margin: 20px 10px 0 10px;
+	cursor: context-menu; 
+}
+
+#settings {
+	position: relative;
+	top: 15px;
+}
+
+#blank-button, #dotted-button, #a5-button, #b5-button {
+	height: 40px;
+    	width: 110px;
+    	background-color: #122034;
+    	color: white;
+    	border-radius: 8px;
+    	border: 2px solid white;
+    	font-size: 16px;
+    	font-family: "Abril Fatface", serif;
+    	margin: 0 5px 10px 10px;
+}
+
+#dotted-button, #b5-button {
+	margin: 0 10px 0 0;
+}
+
+#download-file-name {
+	height: 30px;
+    	width: 112px;
+    	color: #122034;
+    	border-radius: 8px;
+    	border: 2px solid #122034;
+    	font-size: 16px;
+    	font-family: "Abril Fatface", serif;
+    	margin: 0 5px 10px 10px;
+}
+
+#download-button {
+	height: 40px;
+    	width: 100px;
+    	background-color: #122034;
+    	color: white;
+    	border-radius: 8px;
+    	border: 2px solid white;
+    	font-size: 16px;
+    	font-family: "Abril Fatface", serif;
+    	margin: 0 10px 10px 0;
+}
+
+#clear-handles, #clear-paper {
+    height: 40px;
+    width: 230px;
+    background-color: #122034;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: 16px;
+    font-family: "Abril Fatface", serif;
+    margin: 0 10px 10px 10px;
+}
+
+#clear-paper:hover, #clear-handles:hover, #login-button:hover, #signUp-button:hover, .line-button:hover, #logout-button:hover, #save-button:hover, #downoad-button:hover, #blank-button:hover, #dotted-button:hover, a5-button:hover, b5-button:hover {
+    -webkit-filter: drop-shadow( 2px 2px 1px rgba(0, 0, 0, .7));
+    filter: drop-shadow( 2px 2px 1px rgba(0, 0, 0, .7));
+}
+
+#shapes:hover, #text:hover, #lines:hover {
+    -webkit-filter: drop-shadow( 2px 2px 1px rgba(255, 255, 255, .7));
+    filter: drop-shadow( 2px 2px 1px rgba(255, 255, 255, .7));
+}
+
+ul li:hover {
+	-webkit-filter: drop-shadow( 2px 2px 1px rgba(0, 0, 0, .3));
+    	filter: drop-shadow( 2px 2px 1px rgba(0, 0, 0, .3));
+}
