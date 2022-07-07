@@ -18,7 +18,7 @@
 
 ### Right hand side panel:
 &nbsp;&nbsp;&nbsp;&nbsp; In the panel on the right, we have some account related features. Saving a template and reloading it onto the working canvas is allowed only once you are logged in.
-- Signup
+- Sign up
 - Login
 - Save template
 - Reload template (open a previous template to reuse or keep working on)
